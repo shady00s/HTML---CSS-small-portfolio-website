@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome | SSK For Development</title>
+  </head>
+  <body>
+
+
+
+    <!-- The container that holds the greeting text and the website logo -->
+    <div class="first-section">
+    <div class="intro-container">
+      <div class="intro-text">
+        <h1 type="a">Hello , im shady safwat,</h1>
+        <h1 type="b">Iam a software Engineer.</h1>
+      </div>
+      <div class="intro-image">
+        <img src="./assets/pics/logo.png" alt="The website logo." />
+      </div>
+    </div>
+    <!-- The containers which will contain the github link and working projects -->
+    <div class="active-links">
+      <h1>See my posts and further projects</h1>
+      <div class="active-links-container">
+        <!-- github -->
+
+        <div class="github-container">
+          <h3>Github</h3>
+          <div class="cont">
+            <img src="./assets/pics/download.png" alt="github logo" />
+            <a href="https://github.com/shady00s"> Go to visit my Github. </a>
+          </div>
+        </div>
+        <!-- Linkedin -->
+        <div class="linkedin-container">
+          <h3>LinkedIn</h3>
+          <div class="cont">
+            <img src="./assets/pics/link.png" alt="LinkedIn logo" />
+            <a href="https://www.linkedin.com/in/shady-safwat-18a921203"> Go to visit my LinkedIn. </a>
+          </div>
+        </div>
+
+        <!-- Facebook -->
+        <div class="facebook-container">
+          <h3>Facebook</h3>
+          <div class="cont">
+            <img src="./assets/pics/fb.png" alt="Facebook logo" />
+            <a href="https://www.facebook.com/shady.safwat.35">
+
+              Go to visit my Facebook.
+            </a>
+          </div>
+        </div>
+        <style></style>
+      </div>
+    </div>
+
+    <!-- the hire me button will show an container which contain email and job details text -->
+    <div class="buttons-container">
+      <button onclick="hireMeContainer(document.querySelector('.parent-container'))" type="a">Hire Me!</button>
+      <button id="bt1"  type="b">Know more about me</button>
+    </div>
+  </div>
+ 
+<!-- Hire me container -->
+
+      <div class="parent-container">
+  
+        <div class="hire-me-container">
+          <div class="close-container">
+
+            <img onclick="hireMeContainer(document.querySelector('.parent-container'))" src="./assets/pics/close.png" alt="">
+          </div>
+          <br>
+          <h1>Great choice, Now please enter your email address and the job description to start!</h1>
+      
+      
+          <h3>Email:</h3>
+          <input type="email">
+          <h3>Project summary:</h3>
+          <input size="25" style="width:70%; height:95px; font-size:13px;" type="text">
+          <br>
+          <input class="submit-btn" type="submit" value="Send me email">
+        </div>
+      </div>
+  
+
+
+</div>
+    <!-- About Me section -->
+    <div class="info-container">
+
+            <div class="text-container">
+             <p>Im shady safwat , i start learning coding in 2018 and made some applications and website for my friends and colleges as a start , and then in 2022 i participated at the ITI intensive code camp to increase my skills and learn more about front-end development. </p>
+           
+              <div class="courses">
+                <h1>What i learned</h1>
+                <div class="courses-images">
+                  <img src="./assets/pics/cSharp.png" alt="c# logo">
+                  <img src="./assets/pics/flutter.png" alt="flutter logo">
+                  <img src="./assets/pics/web.png" alt="web development logo">
+                  <img src="./assets/pics/node.png" alt="nodejs logo">
+                </div>
+              </div>
+           
+            </div>
+            <div class="image-container">
+              <div class="decoration"></div>
+              
+                <img src="./assets/pics/me.jpeg" alt="">
+                <div class="image">
+              
+            </div>
+          </div>
+ 
+    <script src="./script.js"></script>
+  </body>
+</html>
